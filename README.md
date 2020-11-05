@@ -26,9 +26,11 @@ Graded out of 20 points.
 
 1. Create a virtual obstacle course that will serve as a locomotion testbed.  The environment can be anything you want (indoor or outdoor), as long as it is large enough that the user will need to use virtual locomotion techniques.  The environment should also contain multiple obstacles that the user must navigate around.  You should actually plan out the environment; in other words, don't just randomly spawn MeshBuilder objects like the example code in Lecture 16.  (1)
 
-2. Add a target object that follows a predefined path through the environment. The path should not just be a straight line, and should involve turning and moving around obstacles.  There are multiple ways to implement this, but the easiest way will probably be to use a [keyframe animation](https://doc.babylonjs.com/babylon101/animations).  The object should take at least one minute to complete the path.  When the target reaches a final destination, provide some sort of effect (visual and/or sound) to notify the user that they have won the game. (1)
+2. Add a target object that follows a predefined path through the environment. The path should not just be a straight line, and should involve turning and moving around obstacles.  There are multiple ways to implement this, but the easiest way will probably be to use a [keyframe animation](https://doc.babylonjs.com/babylon101/animations).  The object should take at least one minute to complete the path. (1)
 
-3.  The user's task will be to "chase" the target object and avoid getting too far away. the user has to "chase" through the environment.  You should experiment with different object speeds to make the test moderately difficult, but not impossible to complete. (1)
+   *Note: You can optionally add some sort of visual effect or sound to notify the user that they have won the game, but this is not required.*
+
+3. The user's task will be to "chase" the target object and avoid getting too far away. the user has to "chase" through the environment.  You should experiment with different object speeds to make the test moderately difficult, but not impossible to complete. (1)
 
 4. When the user gets too far away from the target, teleport  both the user and target back to their starting positions.  The game then restarts. Experiment with different maximum difficulty thresholds until you find a reasonable difficulty balance. (1)
 
